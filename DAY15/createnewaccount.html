@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign Up Page</title>
+    <style>
+        body {
+            background-image: url(fb.jpg);
+            background-size: cover;
+        }
+
+        fieldset {
+            background-color: white;
+        }
+
+        input,
+        label {
+            font-size: 1.rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body><br><br><br><br><br><br><br>
+    <center>
+        <fieldset style="width: 40px">
+            <h1>
+                <center> Sign Up</center>
+            </h1>
+            <hr><br>
+
+            <form>
+                <table cell spacing="4%">
+                    <tr>
+                        <td><input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Surname" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="email" size="47" placeholder="Email address" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="password" size="47" placeholder="New Password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dateofbirth">Date of birth</label></td>
+
+                    <tr>
+                        <td>
+                            <input type="number" id="dateofbirth" placeholder="Day" min="1" max="31" required>
+                            <input type="number" id="dateofbirth" placeholder="Month" min="1" max="12" required>
+                            <input type="number" id="dateofbirth" placeholder="Year" min="1900" max="2024" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                    <tr>
+                        <td>
+                            <input type="radio" id="gender" placeholder="Male" min="1" max="31"><label for="gender"
+                                required>Male</label>
+                            <input type="radio" id="gender" placeholder="Female" min="1" max="12"><label for="gender"
+                                required>Female</label>
+                            <input type="radio" id="gender" placeholder="Others" min="1900" max="2024"><label
+                                for="gender" required>Others</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may
+                                receive SMS notifications  
+                                from us and can opt out at any time.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center><input type="submit" value="Sign Up" formaction="accountcreatedsuccessful.html"
+                                    style="background-color: green; color: white;" required></center>
+                        </td>
+                    </tr>
+
+
+                </table>
+            </form>
+        </fieldset>
+</body>
+
+</html>
